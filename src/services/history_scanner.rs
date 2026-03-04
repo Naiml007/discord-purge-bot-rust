@@ -103,7 +103,7 @@ impl HistoryScanner {
                 }
 
                 if !msg.author.bot {
-                    tracker.add_message(msg.author.id, msg.id.get(), msg.channel_id.get(), msg_timestamp).await;
+                    tracker.add_message_from_scan(msg.author.id, msg.id.get(), msg.channel_id.get(), msg_timestamp).await;
                     count += 1;
                 }
 
