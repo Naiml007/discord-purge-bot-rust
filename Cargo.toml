@@ -2,6 +2,13 @@
 name = "discord_purge_bot"
 version = "0.1.0"
 edition = "2021"
+license = "SEE LICENSE FILE"
+authors = ["Naiml007"]
+description = "High-performance Discord bot for tracking and purging user messages (Non-Commercial Use Only)"
+repository = "https://github.com/Naiml007/discord-purge-bot-rust"
+readme = "README.md"
+keywords = ["discord", "bot", "moderation", "purge"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 serenity = { version = "0.12", features = ["client", "gateway", "rustls_backend", "model", "cache"] }
