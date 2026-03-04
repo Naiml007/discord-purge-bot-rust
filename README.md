@@ -185,7 +185,21 @@ src/
 
 ## License
 
-MIT
+**Non-Commercial Use Only**
+
+This project is licensed under a custom non-commercial license. You are free to:
+- ✅ Self-host and use the bot for personal purposes
+- ✅ Modify and distribute the code
+- ✅ Use for educational or non-profit purposes
+
+You may NOT:
+- ❌ Sell this software or derivative works
+- ❌ Use for commercial purposes or revenue generation
+- ❌ Offer as a paid service
+
+See the [LICENSE](LICENSE) file for full details.
+
+For commercial licensing inquiries, please open an issue.
 
 ## Contributing
 
@@ -194,3 +208,4 @@ Contributions welcome! Please ensure:
 - Performance optimizations maintained
 - Memory usage stays bounded
 - All tests pass
+- Contributions must comply with the non-commercial license
